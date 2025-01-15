@@ -7,7 +7,7 @@ module up_down_counter_tb;
   reg rst;
   reg mode;
 
-  wire [2:0] div_cnt;
+  wire [2:0] clk_d;
   wire [2:0] counter;
 
   up_down_counter u_dut(.clk(clk),
