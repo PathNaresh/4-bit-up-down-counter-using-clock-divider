@@ -1,4 +1,6 @@
 
+`include "design.sv"
+
 module up_down_counter_tb;
 
   reg clk;
